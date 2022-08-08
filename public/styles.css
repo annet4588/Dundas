@@ -1,0 +1,120 @@
+* {
+  margin: 5px 5px 7px 5px;
+  padding: 5px 5px;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+.container {
+  max-width: 100%;
+}
+/* .page[size="A4"] {
+  background: white;
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  border: 1.25cm solid #000;
+} */
+/* .App {
+  max-width: 100%;
+  max-height: auto;
+  margin: auto;
+  border: 3px solid black;
+  padding: 5px 5px;
+} */
+#content {
+  position: relative;
+}
+#content img {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+/* .paragraph {
+  width: 70%;
+} */
+
+.Form input {
+  box-sizing: border-box;
+  background-color: transparent;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 3px transparent;
+  border-bottom: dotted 1px grey;
+  width: 400px;
+}
+
+.Header {
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.Form {
+  text-align: left;
+  font-size: 10px;
+  font-weight: 100;
+}
+/* .input-group {
+  padding-top: 5px;
+  padding-bottom: 5px;
+} */
+/* .App{
+  margin: 2% auto;
+  padding: 20px 0;
+  text-align: centre;
+  font-size: 20px;
+  font-weight: 100;
+} */
+
+.input-group-text {
+  float: left;
+  width: 200px;
+  /* padding-right: 24px; */
+  font-size: 10px;
+  font-weight: 100;
+}
+.CheckList {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.Grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.Signature {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.SiteAgent {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 100;
+}
+/* 
+.btn {
+  width: 70%;
+  display: auto;
+} */
+.Footer {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 100;
+  text-align: center;
+  /* padding: 20px 5px 5px 5px; */
+  width: 100%;
+}
+
+/* .App {
+  /* font-family: sans-serif;*/
+/* text-align: center;
+} */
